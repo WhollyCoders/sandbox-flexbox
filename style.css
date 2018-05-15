@@ -1,0 +1,48 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height: 80px;
+  border-bottom: 1px solid #000;
+  padding: 0px 20px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo,
+.navigation{
+  flex-basis: 50%;
+}
+
+#logo-text{
+  display: inline;
+  color: MediumAquaMarine;
+  padding-left: 15px;
+  height: 20px;
+
+}
+
+ul{
+  text-align: right;
+}
+
+ul li{
+  display: inline-block;
+}
+
+.navigation a{
+  color: #000;
+  padding: 15px;
+  line-height: 45px;
+}
+
+/* .logo,
+.navigation,
+#logo-text,
+ul{
+  border: 1px solid #ccc;
+} */
